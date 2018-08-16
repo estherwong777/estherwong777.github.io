@@ -12,7 +12,7 @@ function setup() {
     textFont(font);
     textSize(170);
 
-    var points = font.textToPoints('Hello', windowWidth / 2, windowHeight / 2);
+    var points = font.textToPoints('Hello', 100, 250);
 
     for (var i = 0; i < points.length; i++) {
       var pt = points[i];
